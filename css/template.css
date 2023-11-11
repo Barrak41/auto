@@ -1,0 +1,48 @@
+
+:root {
+    --prime: #007bff ;
+    --second: #B38600;
+    --light: rgb(216, 231, 243);
+    --dark: rgb(66, 55, 2);
+} 
+
+body{
+    background-color: var(--light);
+    margin: 0;
+}
+
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inputs {
+    width: 100%;
+    padding: 10px;
+    margin: 17px 0;
+    border: 2px solid var(--second);
+    border-radius: 30px;
+    background-color: var(--light);
+}
+
+select {
+    height: 40px;
+    
+}
+
+.submit {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--prime);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #0056b3;
+}
